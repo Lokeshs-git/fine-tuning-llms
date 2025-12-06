@@ -1,0 +1,21 @@
+# Environment variables (contains secrets)
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model checkpoints and outputs
+models/
+checkpoints/
+outputs/
+wandb/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
